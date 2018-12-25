@@ -1,0 +1,113 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px;
+}
+
+.modal-content input{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #da3625;
+    border-radius: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.login{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    color: #da3625;
+    padding-bottom: 10px;
+}
+
+.modal-content button{
+    margin: 10px auto;
+    font-size: 25px;
+    background-color: #da3625;
+    padding: 5px 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+button:focus{
+    outline: none;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 350px;
+    top: 210px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal__descr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 50px 0;
+}
+
+.modal-content-sign{
+    padding: 60px 100px;
+    margin: 10px auto;
+}
+
+.modal-content-sign input{
+    margin: 10px 0;
+}
+
+.modal-sign{
+    height: 100%;
+}
+
+.close-sign{
+    top: 20px;
+    right: 350px;
+}
+
+@media only screen and ( min-device-width: 320px ) and ( max-device-width: 736px ){
+    .modal-content{
+        width: 100%;
+        padding: 40px 80px;
+   
+    }
+
+    .close{
+        right: 20px;
+        top: 70px;
+    }
+}

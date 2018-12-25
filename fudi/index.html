@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fudi</title>
+	<link rel="stylesheet" type="text/css" href="style/all.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	
+</head>
+<body>
+
+	<div id="myModal" class="modal">
+
+ 	  <!-- Modal content -->
+	  <div class="modal-content">
+	    <span class="close">&times;</span>
+	    <div class="login">Login</div>
+	    <input type="text" placeholder="Login">
+	    <input type="password" placeholder="Password">
+	    <button>Login</button>
+	  </div>
+
+	</div>
+
+	<div id="myModalSign" class="modal modal-sign">
+
+ 	  <!-- Modal content -->
+	  <div class="modal-content modal-content-sign">
+	    <span class="close close-sign">&times;</span>
+	    <div class="login">Sign Up</div>
+	    <div class="modal__descr">It's free and only takes a minute</div>
+	    <div class="modal__username">Username</div>
+	    <input type="text">
+	    <div class="modal__email">Email Address</div>
+	    <input type="text">
+	    <div class="modal__pass">Password</div>
+	    <input type="password">
+	    <div class="modal__confpass">Confirm Password</div>
+	    <input type="password">
+	    <button>Sign Up</button>
+	  </div>
+
+	</div>
+
+	<section class="header">
+		<div class="header__top">
+			<div class="header__logo">
+				<img src="images/spoon.png" >
+			</div>
+			<div class="header__nav">
+				<div class="header__nav__elem" id="myBtn">log in</div>
+				<div class="header__nav__elem" id="signBtn">sign up</div>
+				<div class="header__nav__elem dropdown"><!-- <img src="images/Layer-2-copy-2.png"> -->
+					<!-- <button > -->
+						<div  >
+
+						  <img  onclick="myFunction(this)" src="images/menu.svg" class="menu-btn dropbtn" alt="">
+						  <!-- <img src="images/close-button.svg" class="closemenu-btn" alt=""> -->
+						</div>
+					<!-- </button> -->
+					<div id="myDropdown" class="dropdown-content">
+					    <a href="#home">Home</a>
+					    <a href="#about">About</a>
+					    <a href="#contact">Contact</a>
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+		<div class="header__main">
+			<div class="header__main__title">
+				Find your Favorite
+			</div>
+			<div class="header__main__title_recipes">
+				recipes
+			</div>
+			<div class="header__main__button">
+				get started
+			</div>
+			<div class="header__main__descr">
+				OR SEND US YOUR OWN RECIPES AND GET <span class="underline">REWARDED</span>!
+			</div>
+		</div>
+	</section>
+
+	<section class="features">	
+				<div class="features__items">
+					<div class="features__items_img">
+					<img src="images/burger.png" alt="">
+					</div>
+					<div class="features__items__title">
+					g<span class="red-line">et inspir</span>ed
+					</div>
+					<div class="features__items__text">
+					Lorem ipsum dolor sit amet, consectetur adipisc 
+					Pellentesque vel enim a elit viverra elementuma.
+					Aliquam erat volutpat. 
+					</div>
+				</div>
+				<div class="features__items">					<div class="features__items_img features__items_img_dollars">
+					<img src="images/dollars.png">
+					</div>
+					<div class="features__items__title">
+					ge<span class="red-line">t reward</span>ed
+					</div>
+					<div class="features__items__text">
+					Lorem ipsum dolor sit amet, consectetur adipisc 
+					Pellentesque vel enim a elit viverra elementuma.
+					Aliquam erat volutpat. 
+					</div>				</div>
+				<div class="features__items">
+					<div class="features__items_img">
+					<img src="images/chef.png" >
+					</div>
+					<div class="features__items__title">
+						g<span class="red-line">et socia</span>l
+					</div>
+					<div class="features__items__text">
+						Lorem ipsum dolor sit amet, consectetur adipisc 
+						Pellentesque vel enim a elit viverra elementuma.
+						Aliquam erat volutpat. 
+					</div>
+				</div>
+	</section>
+	
+	<section class="iphone">
+		<div class="iphone__pic">
+			<img src="images/iphone.png" alt="iphone.png">
+		</div>
+		<div class="iphone__intro">
+			<div class="iphone__intro__title"><span>INTRODU</span>CING THE FUDI APP</div>
+			<div class="iphone__intro__descr">Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet 
+			felis sit amet diam mollis ullamcorper. Nullam consequat sem a ante vest
+			ibulum tristique. Suspendisse tristique lacus ac mattis porta. <br><br>
+
+			Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet libero. In 
+			libero dui, eleifend eu nisi id, egestas fringilla odio. In varius quam a mas
+			sa hendrerit ullamcorper a eu justo. Suspendisse porta mattis convallis. 
+			Aenean tempus ligula ac odio rhoncus, quis aliquam dolor accumsan. <br><br>
+
+			Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam 
+			malesuada. Duis vehicula a nibh id hendrerit. Donec sit amet ultrices 
+			ante, a mattis massa. </div>
+			<div class="iphone__intro__app">
+				<div class="iphone__intro__appstore">
+					<img src="images/appstore.png" alt="appStore">
+				</div>
+				<div class="iphone__intro__appstore">
+					<img src="images/googleplay.png" alt="googlePlay">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="review">
+		<div class="review__slide">
+			<div class="review__pic"></div>
+			<div class="review__quote pt">
+				&quot;I am so happy ecause I found this recipe, and it just made my life easier <br>
+				Thanks so much for sharing!&quot;
+			</div>
+			<div class="review__avtor">
+				- Michael Dawson, San Francisco, CA -
+			</div>
+		</div>
+
+		<div class="review__slide">
+			<div class="review__pic review__pic__2"></div>
+			<div class="review__quote">
+				&quot;Ramil is an amazing coder and successful businessman <br>
+				Keep up good work!&quot;
+			</div>
+			<div class="review__avtor">
+				- Lorain Brioche, Paris, FR -
+			</div>
+		</div>
+
+		<div class="review__slide">
+			<div class="review__pic review__pic__3"></div>
+			<div class="review__quote">
+				&quot;This is amazing website and creater is such awesome guy <br>
+				Thanks so much for sharing!&quot;
+			</div>
+			<div class="review__avtor">
+				- Leona Schultz, Berlin, GE -
+			</div>
+		</div>
+
+		<div class="arrow arrow-left" onclick="clickLeft()">
+			<img src="images/back.svg" alt="back.svg">
+		</div>
+		<div class="arrow arrow-right" onclick="clickRight()">
+			<img src="images/next.svg" alt="next.svg">
+		</div>
+	</section>
+	<section class="cusine">
+		<div class="features__items__title cusine__title">
+			brow<span class="red-line">se by cui</span>sines
+		</div>
+
+		<div class="cusine__item-wrap">
+			<div class="cusine__items">
+				<img src="images/pasta.png" alt="pasta picture">
+				<div class="cusine__items__overlay">
+					<p>327 Recipes</p>
+					<h1>italian</h1>
+				</div>
+			</div>
+			
+			<div class="cusine__items">
+				<img src="images/curry.png" alt="curry picture">
+				<div class="cusine__items__overlay">
+					<p>856 Recipes</p>
+					<h1>indian</h1>
+				</div>
+			</div>
+			
+			<div class="cusine__items">
+				<img src="images/french.png" alt="french picture">
+				<div class="cusine__items__overlay">
+					<p>27 Recipes</p>
+					<h1>french</h1>
+				</div>
+			</div>
+			
+			<div class="cusine__items">
+				<img src="images/steak.png" alt="pasta picture">
+				<div class="cusine__items__overlay">
+					<p>174 Recipes</p>
+					<h1 class="steak">steakhouse</h1>
+				</div>
+			</div>
+
+			<div class="cusine__items">
+				<img src="images/seafood.png" alt="pasta picture">
+				<div class="cusine__items__overlay">
+					<p>731 Recipes</p>
+					<h1>seafood</h1>
+				</div>
+			</div>
+
+			<div class="cusine__items">
+				<img src="images/sushi.png" alt="pasta picture">
+				<div class="cusine__items__overlay">
+					<p>237 Recipes</p>
+					<h1>sushi</h1>
+				</div>
+			</div>
+
+			<div class="cusine__items">
+				<img src="images/taco.png" alt="pasta picture">
+				<div class="cusine__items__overlay">
+					<p>529 Recipes</p>
+					<h1>mexican</h1>
+				</div>
+			</div>
+
+			<div class="cusine__items">
+				<img src="images/chinese.png" alt="pasta picture">
+				<div class="cusine__items__overlay">
+					<p>145 Recipes</p>
+					<h1>chinese</h1>
+				</div>
+			</div>
+
+			<div class="cusine__items">
+				<img src="images/pizza.png" alt="pasta picture">
+				<div class="cusine__items__overlay">
+					<p>327 Recipes</p>
+					<h1>pizza</h1>
+				</div>
+			</div>
+
+			<div class="cusine__items">
+				<img src="images/burger-pic.png" alt="pasta picture">
+				<div class="cusine__items__overlay">
+					<p>1.437 Recipes</p>
+					<h1>american</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="cusine__number">
+			<div class="cusine__number__item">
+				<div class="counter cusine__number__item_count ">23,567</div>
+				<div class="cusine__number__item_count_descr">Recipes Available</div>
+			</div>
+			<div class="cusine__number__item">
+				<div class="counter cusine__number__item_count">431,729</div>
+				<div class="cusine__number__item_count_descr">Active Users</div>
+			</div>
+			<div class="cusine__number__item">
+				<div class="counter cusine__number__item_count" data->892,173</div>
+				<div class="cusine__number__item_count_descr">Positive Reviews </div>
+			</div>
+			<div class="cusine__number__item">
+				<div class="counter cusine__number__item_count">56,581</div>
+				<div class="cusine__number__item_count_descr">Photos &amp; Videos</div>
+			</div>
+			<div class="cusine__number__item">
+				<div class="counter cusine__number__item_count">3,182</div>
+				<div class="cusine__number__item_count_descr">Spices and Herbs </div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="map">
+
+			<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div id="map" style="width:100%;height:500px"><a class="dg-widget-link" href="http://2gis.kz/almaty/firm/9429940000797139/center/76.9486713409424,43.25051681820503/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Алматы</a><div class="dg-widget-link"><a href="http://2gis.kz/almaty/firm/9429940000797139/photos/9429940000797139/center/76.9486713409424,43.25051681820503/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.kz/almaty/center/76.94868,43.250217/zoom/16/routeTab/rsType/bus/to/76.94868,43.250217╎Coffeedelia, кофейня?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Coffeedelia, кофейня</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":'100%',"height":"500px","borderColor":"#fff","pos":{"lat":43.25051681820503,"lon":76.9486713409424,"zoom":16},"opt":{"city":"almaty"},"org":[{"id":"9429940000797139"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript></div>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+		
+	</section>
+
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script>
+	jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 3000
+            });
+        });
+</script>
+
+</body>
+</html>

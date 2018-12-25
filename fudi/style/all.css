@@ -1,0 +1,20 @@
+@import url('vendor/reset.css');
+
+@import url('components/header.css');
+
+@import url('components/features.css');
+
+@import url('components/cusine.css');
+
+@import url('components/modal.css');
+
+@import url('components/map.css');
+
+@import url('font/Lato-Bla.ttf');
+@import url('font/Lato-Reg.ttf');
+@import url('font/Lato-Bol.ttf');
+@import url('font/Lato-Lig.ttf');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i');
+@import url('components/iphone.css');
+@import url('components/review.css');
+
