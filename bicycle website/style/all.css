@@ -1,0 +1,20 @@
+@import url('vendor/reset.css');
+
+@import url('components/header.css');
+@import url('components/new__gen.css');
+@import url('components/vintage.css');
+@import url('components/retro.css');
+@import url('components/review.css');
+@import url('components/discover.css');
+@import url('components/mailing.css');
+@import url('components/footer.css');
+
+
+/*@import url('components/features.css');
+
+@import url('components/cusine.css');
+
+@import url('components/modal.css');
+
+@import url('components/map.css');*/
+

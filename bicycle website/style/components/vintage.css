@@ -1,0 +1,215 @@
+
+
+.vintage_logo{
+	padding-top: 63px;
+}
+
+.line{
+    margin: 20px auto 50px;
+	width: 50px;
+	height: 1px;
+	background-color: #d7d7d7;
+}
+
+.wrapper-first{
+  width: 100%;
+}
+
+.first__wrap, .second__wrap, .third__wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.third__wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.first__wrap__item, .second__wrap__item, .third__wrap__item{
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.vintage__header{
+	font: 18px 'Lato';
+	padding-top: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.vintage__p{
+	padding:10px 50px;
+	line-height: 1.5;
+	text-align: justify;
+	color: #848789;
+}
+
+.v1{
+	background-image: url(file:///C:/Users/user/Desktop/stuff/web/bicycle%20website/images/vintage-pic.jpg);
+    background-position-x: -40px;
+    display: grid;
+	grid-column: 1/3;
+	grid-row: 1/4;
+}
+
+.bc-logo{
+	grid-column: 3/2;
+    grid-row: 2/3;
+	width: 90px;
+    height: 95px;
+}
+
+.bc-logo-79{
+	grid-column: 2/3;
+    grid-row: 2/3;
+    width: 157px;
+    height: 132px;
+}
+
+.bicycle-logo2{
+	grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+.d1{
+	grid-column: 3/4;
+	grid-row:1/3;
+	text-align: center;
+}
+
+.pic1{
+  grid-column:3/4;
+  grid-row: 3/4;
+}
+
+.d2{
+	grid-column: 1/2;
+	grid-row: 1/3;
+	text-align: center;
+}
+
+.pic2{
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+
+.v2{
+	background-image: url(file:///C:/Users/user/Desktop/stuff/web/bicycle%20website/images/vintage-79.jpg);
+	grid-column: 2/4;
+	grid-row: 1/4;
+	background-position-x: -150px;
+	display: grid;
+}
+
+.rebike-left{
+	background-image: url(file:///C:/Users/user/Desktop/stuff/web/bicycle%20website/images/redbike-left.jpg);
+	background-position-x:-100px;
+	grid-column: 1/2;
+	grid-row:1/4;
+	display: grid;
+}
+
+.d3{
+	grid-column: 2/3;
+	grid-row: 1/3;
+	text-align: center;
+}
+
+.redbike-right{
+	grid-column: 3/4;
+	grid-row: 1/4;
+}
+
+.retro-pic3{
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+
+.wh100{
+	height: 100%;
+	width: 100%;
+}
+
+/*mobile*/
+@media only screen and ( min-device-width: 320px )
+ and ( max-device-width: 736px ){
+
+	.wrapper-first {
+    width: 100%;
+}
+
+
+.first__wrap, .second__wrap, .third__wrap{
+  display: block;
+}
+
+.first__wrap__item{
+	height: 380px;
+	width: 100%;
+}
+
+.v1{
+	background-size: 440px 400px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.v2{
+	display: block;
+    background-position-x: -80px;
+    background-position-y: 0px;
+    background-size: 450px 253px;
+    background-repeat: no-repeat;
+    height: 260px;
+    background-image: url(file:///C:/Users/user/Desktop/stuff/web/bicycle%20website/images/vintage-79.jpg);
+}
+
+.bc-logo{
+	margin: 160px 130px;
+	width: 80px;
+    height: 85px;
+}
+
+.wh100{
+	height: 50%;
+	width: 100%;
+}
+
+.vintage_logo{
+	padding-top: 30px;
+}
+
+.vintage_logo img{
+	width: 41px;
+	height: 30px;
+}
+
+.bc-logo-79{
+	width: 107px;
+    height: 82px;
+    margin: 90px 110px;
+}
+
+.d2 img{
+	width: 42px;
+	height: 42px;
+}
+
+.d3{
+	padding-top: 20px;
+}
+
+.vintage_logo_d3 img{
+	width: 23px;
+	height: 41px;
+}
+
+ }
