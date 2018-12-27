@@ -1,5 +1,5 @@
 body{
-  background-image: url("file:///C:/Users/Ramil/Desktop/ramil/stuff/web/proj/images/bg.jpg");
+  background-image: url("images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 736px;
@@ -8,7 +8,7 @@ body{
   padding-bottom: 0px;
     padding-top: 0px;
     line-height: 0.35cm;
-    background-image: url("file:///C:/Users/Ramil/Desktop/ramil/stuff/web/proj/images/navbg.jpg")
+    background-image: url("images/navbg.jpg")
 }
 .navbar-brand{
   padding-left: 8px;
