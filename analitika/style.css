@@ -40,8 +40,7 @@ a.navbar-brand{
   
 }
 .collapse{
-  font-size: 14px;
-  padding: 0 30px 0 40px;
+/*  padding: 0 30px 0 40px;*/
 }
 .mainstr_left_con{
   margin-top: 30px;
@@ -186,9 +185,9 @@ a.navbar-brand{
 
 }
 @media (max-width: 1138px){
-      .collapse{
+/*      .collapse{
       padding-left: 30px;
-    }
+    }*/
     a.navbar-brand{
       margin: 0px;
     }
@@ -202,9 +201,9 @@ a.navbar-brand{
 }*/
 
 @media (max-width: 1050px){
-    .collapse{
+/*    .collapse{
       padding: 10px;
-    }
+    }*/
     a.navbar-brand{
       margin: 0;
     }
@@ -247,7 +246,7 @@ a.navbar-brand{
     line-height: 0.5cm;
   }
   body{
-    height: 2430px;
+    height: 2460px;
   }
   .otrosl{
     padding-left: 140px;
