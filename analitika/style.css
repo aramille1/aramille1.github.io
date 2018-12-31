@@ -13,6 +13,10 @@ body{
 .navbar-brand{
   padding-left: 8px;
 }
+
+.navbar-brand_logo{
+  margin: 10px;
+}
 .main{
   height: 736px;
 }
@@ -34,7 +38,7 @@ body{
 
 }
 
-a.navbar-brand{
+div.navbar-brand{
   margin-right: 6rem;
   font-size: 12px;
 }
@@ -189,7 +193,7 @@ a.navbar-brand{
 /*      .collapse{
       padding-left: 30px;
     }*/
-    a.navbar-brand{
+    div.navbar-brand{
       margin: 0px;
     }
 }
@@ -208,9 +212,7 @@ a.navbar-brand{
     order: 1;
     width: 76px;
   }
-    a.navbar-brand{
-      margin: 0;
-    }
+
   .mainstr_right_firstblock{
     justify-content: flex-start;
     height: 500px;
@@ -229,6 +231,7 @@ a.navbar-brand{
     }
 }
 
+
 @media (max-width: 627px){
   .mainstr_left_con{display: flex}
   .mainstr_left_con a{width: 76px;}
@@ -246,7 +249,8 @@ a.navbar-brand{
     height: 2400px;
   }
 }
-@media (max-width: 560px){
+
+@media screen and  (max-width: 560px){
   .mainstr_left_con{display: flex}
   .masinstr_left_analitika{
     order: 1;
