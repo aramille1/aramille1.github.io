@@ -1,0 +1,133 @@
+  body{
+      background-image: url("images/bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    video{
+      width: 100%;
+      height: auto;
+    }
+    .nav_item_social{
+    list-style-type: none;
+      display: inline-flex;
+  }
+    .nav-item_social_footer{
+      margin-right:15px;
+        font-size:2.5rem;
+  }
+  a.nav-link.icon{
+    padding: 0px 8px;
+  }
+
+  /*Header nav*/
+
+  .navbar{
+  padding-bottom: 0px;
+  padding-top: 0px;
+  line-height: 0.35cm;
+  background-image: url("images/navbg.jpg")
+}
+  div.navbar-brand{
+    margin-right: 6rem;
+    font-size: 12px;
+  }
+  .navbar-brand{
+    padding-left: 8px;
+  }
+
+  .navbar-brand_logo{
+    margin: 10px;
+    font-size: 13px;
+  }
+  ul.nav{display:block;}      
+
+  #facebook_icon a{
+    color:#17a2b8!important;
+    width: 100px;
+    height: 100px;
+    }
+  .nav_item_social{
+    list-style-type: none;
+    display: flex;
+        padding-left: 24px;
+  }
+  .icon{
+    border: 2px solid white;
+      border-radius: 50%;
+      font-size: 20px;
+  }
+
+/*end of nav*/
+
+.edit{
+  margin-top:48px;
+}
+.main_text p{
+  line-height: 1;
+}
+
+.main_text, ul.nav{
+  font-size: 18px;
+  font-family: arial;
+}
+.instruction{
+  margin-top: 10px;
+  font-size: 15px;
+}
+.turkestan{
+    margin-top: 50px;
+    color: #35aec142!important;
+    font-weight: 600;
+}
+
+hr{
+  margin: 30px 50px 30px 0;
+  background-color:#17a2b8!important;
+}
+
+#aside_hr{
+  margin: 10px 0 3px 0;
+  background-color:#17a2b8!important;
+  width: 70%;
+}
+
+#last_hr{
+  margin:0 50px 30px 0;
+}
+
+
+   @media screen and (max-width: 1268px) {
+      
+   }
+
+
+
+
+
+
+
+
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+      ul.nav{display:flex;}
+      li.active{
+        order:2;
+        padding-left:5px; 
+      }
+      #aside_hr{display: none}
+      .edit{
+        margin:20px;
+      }
+      
+    }
+
