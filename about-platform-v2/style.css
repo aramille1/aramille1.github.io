@@ -104,10 +104,23 @@ hr{
   margin:0 50px 30px 0;
 }
 
+a.nav-link.icon{
+  padding: 0;
+}
+.fa-google-play{
+   padding: 6px 7px;
+}
+.fa-facebooky{
+  padding: 3px 12px;
+}
+.fa-instagram{
+  padding: 3px 7px;
+}
+.fa-twitter{
+  padding: 3px 7px;
+}
 
-   @media screen and (max-width: 1268px) {
-      
-   }
+
 
 
 
@@ -127,6 +140,9 @@ hr{
       #aside_hr{display: none}
       .edit{
         margin:20px;
+      }
+      .nav_item_social{
+        padding: 0;
       }
       
     }
