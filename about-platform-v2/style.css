@@ -37,7 +37,7 @@
   background-image: url("images/navbg.jpg")
 }
   div.navbar-brand{
-    margin-right: 6rem;
+    margin-right: 5rem;
     font-size: 12px;
   }
   .navbar-brand{
@@ -144,6 +144,6 @@ a.nav-link.icon{
       .nav_item_social{
         padding: 0;
       }
+    
       
     }
-
