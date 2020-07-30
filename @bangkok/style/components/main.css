@@ -3,7 +3,7 @@ body, html {height: 100%}
 
 
 .bgimg {
-    background-image: url(file:///C:/Users/user/Desktop/stuff/web/@bangkok/images/food.jpg);
+    background-image: url(../../images/food.jpg);
     min-height: 100%;
     background-position: center;
     background-size: cover;
